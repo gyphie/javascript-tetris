@@ -1,0 +1,71 @@
+/* step 08 */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: #444;
+  font-size: 1.2rem;
+}
+
+span.label { 
+  font-weight: bold;
+}
+
+span.value {
+  font-family: monospace;
+}
+
+div.game {
+  display: flex;
+  flex-direction: row;
+}
+
+div.game > div.gameBoard {
+  padding: 0 1rem;
+}
+
+#gameBoard {
+  border: 1px solid #000;
+}
+
+div.game > div.gameStats {
+  display: flex;
+  flex-direction: column;
+}
+
+div.game > div.gameStats > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.game > div.gameStats > div.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div.game > div.gameStats > div.controls > div {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#gameBoard {
+  width: 200px;
+  height: 400px;
+}
+#preview {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+#btnDrop {
+  padding: 0 1rem;
+}

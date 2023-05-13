@@ -1,0 +1,28 @@
+EASY
+- Give bigger level bonus points for completing higher levels.
+- Add 1, 2, 3, and 5 block shapes.
+- Change the game board width and height. Make sure the blocks stay the same size.
+- Make the game more retro by changing the piece colors and text fonts.
+
+
+MEDIUM
+- Add a key press and HTML button to swap the current piece and the preview piece.
+- Update the game board to draw fancier blocks.
+- Update the game board to draw a fancier background (a gradient or a picture).
+
+HARD
+- Add sound effects.
+- Save the high score (in a cookie or localstorage), show it on the web page.
+- Add a line complete animation. For example, the line flashes twice then disappears.
+  Then after a moment the board moves down. Then the next piece appears at the top.
+  and play resumes.
+
+ADVANCED
+- Add bomb pieces. Explode (remove) any board blocks that the piece touches.
+- Add embedded time bombs to existing pieces. 1 block in a piece is a bomb. After a
+  few more pieces drop the bomb explodes and removes any board blocks it touches.
+- Change the Board class shapeData simple array to use a different data structure.
+  Perhaps an array containing arrays of rows, each of which is an array of blocks.
+  Then update the functions that reset the board, check for valid piece positions and
+  check for line completion to use the new data structure.
+
